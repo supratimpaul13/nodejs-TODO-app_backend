@@ -12,5 +12,5 @@ router
     .route('/:id')
     .put(isAuthenticaded, updateTask)
     .delete(isAuthenticaded, deleteTask);
-    
+
 export default router;

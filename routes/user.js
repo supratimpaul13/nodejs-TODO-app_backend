@@ -1,5 +1,4 @@
 import express from "express";
-import { User } from "../models/users.js";
 import {
     getMyProfile,
     login,
